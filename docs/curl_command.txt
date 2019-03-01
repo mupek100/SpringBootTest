@@ -1,0 +1,15 @@
+# Read Hello
+curl -i -H "Content-Type: application/json" -X GET localhost:8080/hello
+
+# Add new test
+curl -i -H "Content-Type: application/json" -X POST -d '{
+        "prize": 12,
+        "name": "Apple",
+        "amount": 2
+    }' localhost:8080/tests
+
+# List Tests
+curl -i -H "Content-Type: apmustafa@mustafa-ms-7c02:/opt$ curl -i -H "Content-Type: application/json" -X GET localhost:8080/tests
+
+# Get Test
+curl -i -H "Content-Type: apmustafa@mustafa-ms-7c02:/opt$ curl -i -H "Content-Type: application/json" -X GET localhost:8080/tests/1
